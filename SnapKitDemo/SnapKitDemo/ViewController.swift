@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     // MARK: - Attributes
     
-    private let shouldHaveCTA = false
+    private let shouldHaveCTA = true
     
     // MARK: - UIViewController
 
@@ -45,7 +45,6 @@ class ViewController: UIViewController {
         
         // container
         view.addSubview(containerView)
-        containerView.backgroundColor = .red
         containerView.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
